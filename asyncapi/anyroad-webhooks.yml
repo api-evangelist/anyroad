@@ -1,0 +1,25 @@
+generated: '2026-07-17'
+method: searched
+source: https://www.anyroad.com/platform/integrations
+spec_type: Webhooks
+summary: >-
+  AnyRoad publicly advertises a real-time webhook surface on its integrations
+  page: "AnyRoad Webhooks make it easy to push your experience results, revenue,
+  and consumer data to any destination system in real-time." The detailed event
+  catalog, payload schemas, and subscription management are documented inside the
+  authenticated application (app.anyroad.com) and Help Center, and are not
+  publicly enumerable, so no event list is captured here to avoid fabrication.
+webhooks:
+  advertised: true
+  delivery: push
+  transport: http
+  data_shared:
+  - experience results
+  - revenue
+  - consumer data
+  docs: https://www.anyroad.com/platform/integrations
+  help_center: https://help.anyroad.com/hc/en-us
+  events: []   # not publicly enumerated; documented behind authenticated app
+notes: >-
+  Webhook configuration and the full event/payload reference live behind login;
+  only the advertised capability is captured from the public integrations page.

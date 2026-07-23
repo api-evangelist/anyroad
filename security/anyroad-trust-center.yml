@@ -1,0 +1,17 @@
+generated: '2026-07-17'
+method: searched
+probe: true
+source: https://trust.anyroad.com/
+url: https://trust.anyroad.com/
+certifications:
+- SOC 2
+- PCI DSS
+- GDPR
+evidence:
+- source: https://trust.anyroad.com/
+  keywords:
+  - soc 2
+  - pci dss
+  - pci-dss
+  - trust center
+  - gdpr

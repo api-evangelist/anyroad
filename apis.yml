@@ -1,7 +1,18 @@
 aid: anyroad
 name: Anyroad
-description: Anyroad is a company surfaced as a portfolio company of 500-global, a16z and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AnyRoad is an experiential marketing and consumer-engagement platform that
+  helps brands plan, manage, and measure live and virtual experiences such as
+  events, brand activations, tours, tastings, retail experiences, classes, and
+  memberships. Its products include Experience Manager for automated event
+  operations, a Guest Experience layer for booking, ticketing, and personalized
+  guest communication, and Atlas Insights for analytics and ROI measurement of
+  experiential programs, plus customer data capture, post-event surveys, and
+  loyalty/membership management. AnyRoad exposes integration flexibility through
+  APIs, real-time webhooks, and report/dashboard exports to CRM, CDP, POS, ERP,
+  marketing-automation, BI, and workflow-automation systems, and serves major
+  alcohol, CPG, and retail brands across 90+ countries. Backed by 500 Global and
+  a16z, it was added to the API Evangelist network for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/anyroad/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +21,30 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/64ebd7bdc5bc36abe2dcd6df/64ebd7bdc5bc36abe2dcd712_logo-anyroad.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Experiential Marketing
+- Events
+- Experiences
+- Ticketing
+- Consumer Engagement
+- Analytics
+- Webhooks
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +52,31 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Webhooks
+  name: AnyRoad Webhooks
+  url: asyncapi/anyroad-webhooks.yml
+- type: TrustCenter
+  url: security/anyroad-trust-center.yml
+- type: Compliance
+  name: AnyRoad Trust Center (SOC 2, PCI DSS, GDPR)
+  url: security/anyroad-trust-center.yml
+- type: DomainSecurity
+  url: security/anyroad-domain-security.yml
+- type: Support
+  name: AnyRoad Help Center
+  url: https://help.anyroad.com/hc/en-us
+- type: Pricing
+  url: https://www.anyroad.com/pricing
+- type: Login
+  url: https://app.anyroad.com/users/sign_in
+- type: TermsOfService
+  url: https://www.anyroad.com/terms
+- type: PrivacyPolicy
+  url: https://www.anyroad.com/privacy
 - type: Website
   url: https://anyroad.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
