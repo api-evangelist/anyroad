@@ -46,7 +46,7 @@ accessModel:
 image: https://cdn.prod.website-files.com/64ebd7bdc5bc36abe2dcd6df/64ebd7bdc5bc36abe2dcd712_logo-anyroad.svg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - Experiential Marketing
@@ -72,6 +72,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.anyroad.com/blog
+  type: Blog
 - type: Webhooks
   name: AnyRoad Webhooks
   url: asyncapi/anyroad-webhooks.yml
